@@ -1,0 +1,31 @@
+"use strict";
+
+//An object with 5 properties or key-value pairs
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+};
+console.log(jonas);
+
+//DOT  NOTATION
+console.log(jonas.lastName);
+console.log(jonas["lastName"]);
+
+const nameKey = "Name";
+console.log(jonas[`first${nameKey}`]); //expressions can be put in the bracket notation
+
+// const interestedIn = prompt(
+//   `What do you want to know about jonas? Choose between firstName, lastName, age, job and friends`
+// );
+// console.log(jonas[interestedIn]);
+
+//setting new properties
+jonas.location = "Portugal";
+jonas["twitter"] = "@jonasschmedtman";
+
+console.log(
+  `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`
+);

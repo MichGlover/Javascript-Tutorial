@@ -1,7 +1,7 @@
 "use strict";
 
 //An object with 5 properties or key-value pairs
-const jonas = {
+const jonas1 = {
   firstName: "Jonas",
   lastName: "Schmedtmann",
   age: 2037 - 1991,
